@@ -6,8 +6,10 @@
 
 ## Blog Articles
 
-- Blog Markdown YAML Front Matter contains only `title`, `slug`, `date`, `description`, and `tags`.
-- Use Chinese-first titles and descriptions with natural English technical terms; generate a descriptive lowercase ASCII slug using only letters, digits, and hyphens and covering the core entities, technologies, and search intent; use the current date; and select 8–16 relevant Chinese and English tags without keyword stuffing or trivial duplicates.
+- Blog Markdown YAML Front Matter contains only `title`, `slug`, `date`, `excerpt`, and `tags`.
+- Write the title, excerpt, headings, body, and tags in the requested or context-appropriate language while preserving official names and technical terms naturally.
+- Use a descriptive lowercase ASCII hyphenated slug; give new articles the current local ISO 8601 timestamp with UTC offset, preserve it on revisions unless rescheduled; and select 8–16 relevant tags without stuffing or trivial duplicates.
+- Use the post title as the page's sole H1; begin the body with a localized H2 overview heading appropriate to the article's language and genre.
 
 ## Task Intent and Authorization
 
