@@ -4,6 +4,11 @@
 
 - The user's language is Chinese. Communicate in Simplified Chinese by default; use another language only when explicitly requested, required by the target content, or necessary to preserve the original accurately.
 
+## Blog Articles
+
+- Blog Markdown YAML Front Matter contains only `title`, `slug`, `date`, `description`, and `tags`.
+- Use Chinese-first titles and descriptions with natural English technical terms; generate a descriptive lowercase ASCII slug using only letters, digits, and hyphens and covering the core entities, technologies, and search intent; use the current date; and select 8–16 relevant Chinese and English tags without keyword stuffing or trivial duplicates.
+
 ## Task Intent and Authorization
 
 - This file sets global defaults. In-scope project or nested instructions override conflicts unless higher-priority policy or explicit user intent requires otherwise.
