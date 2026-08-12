@@ -57,18 +57,10 @@ GitHub latest URL:
 https://github.com/MeowLove/CXT-Skills/tree/main/linux-agent-env
 ```
 
-Stable tagged URL after publishing `v5.0.1`:
-
-```text
-https://github.com/MeowLove/CXT-Skills/tree/v5.0.1/linux-agent-env
-```
-
 For Codex skill-installer compatible flows, the equivalent parameters are:
 
 ```bash
 install-skill-from-github.py --repo MeowLove/CXT-Skills --path linux-agent-env --ref main
-# or, after tagging:
-install-skill-from-github.py --repo MeowLove/CXT-Skills --path linux-agent-env --ref v5.0.1
 ```
 
 Do not use `https://github.com/MeowLove/CXT-Skills/linux-agent-env`; GitHub web directory links require `/tree/<branch>/<path>`.
