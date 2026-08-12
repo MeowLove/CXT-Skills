@@ -12,6 +12,7 @@ check_for_update_on_startup = true
 
 [desktop]
 followUpQueueMode = "queue"
+show-context-window-usage = true
 
 [features]
 # Core capabilities
