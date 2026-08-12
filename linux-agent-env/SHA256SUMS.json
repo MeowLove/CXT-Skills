@@ -1,0 +1,71 @@
+{
+    "release":  "linux-agent-env-v5.0.1",
+    "version":  "5.0.1",
+    "files":  [
+                  {
+                      "path":  ".gitignore",
+                      "sha256":  "984548655002A8D4FFDCDAE78E4DA721C12D03B9FEED50670C206ABCFD4C2FC7",
+                      "bytes":  374
+                  },
+                  {
+                      "path":  "CHANGELOG.md",
+                      "sha256":  "42FDDE3DDB3164E3BCCD8A1C67C25BF5E0740BFECED211FCE7EED5D9A564F195",
+                      "bytes":  10613
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "8F1C61246EF1FFDB870A1F9C30020A063642500DAB535EF44E16C18AF84A7AA3",
+                      "bytes":  7715
+                  },
+                  {
+                      "path":  "references/agent-cli-installation.md",
+                      "sha256":  "00DAAA36A0EFF326BC4A883481E7F1A01EC083442C701E7563A297B8CE7D5469",
+                      "bytes":  23512
+                  },
+                  {
+                      "path":  "references/agent-gui-management.md",
+                      "sha256":  "36648F8AFAD9CC50A3A102C2A169145A5EE4AAA63B2436A216E0117F74EBA02C",
+                      "bytes":  13276
+                  },
+                  {
+                      "path":  "references/agent-provider-operations.md",
+                      "sha256":  "8776B62252C76483A8879E19A478D649CD0047F3F08766F6F7B37F35612EB6AE",
+                      "bytes":  53264
+                  },
+                  {
+                      "path":  "references/base-linux-setup.md",
+                      "sha256":  "F47645D1F5E4A57F4D816D126EA65558E79EB3F943C420C38BF1C1BB7D78687C",
+                      "bytes":  6546
+                  },
+                  {
+                      "path":  "references/developer-toolchain.md",
+                      "sha256":  "6AAF17111CD5AD8518C863CDEFAB659CBA9BA25771F17555B4AED51CE299FB95",
+                      "bytes":  9625
+                  },
+                  {
+                      "path":  "references/gui-appimage-runtime.md",
+                      "sha256":  "B303306F129583095321336867D0064DFBFD816FB54907BBC03438FA53EE6FC0",
+                      "bytes":  4319
+                  },
+                  {
+                      "path":  "references/official-sources.md",
+                      "sha256":  "0B3D2FE6DC58DD5EA26D604CADC21C24AF3BEAE519921E32A93A84B1912B81EF",
+                      "bytes":  16903
+                  },
+                  {
+                      "path":  "references/session-continuity.md",
+                      "sha256":  "E19A5656664BCFA03F7344F5AE9A235FD41E772B989D90B9555D4C0A8241895F",
+                      "bytes":  5681
+                  },
+                  {
+                      "path":  "references/wsl-integration.md",
+                      "sha256":  "08EC0102540FC0D9E14EA5A70BA52AF62A4CC635E059C87464343EFE2808460B",
+                      "bytes":  11759
+                  },
+                  {
+                      "path":  "SKILL.md",
+                      "sha256":  "225A8C4C0F50E0F5A554FFE9948F6E8011F69873491BEA34118F5AFFD6471D9A",
+                      "bytes":  11889
+                  }
+              ]
+}
