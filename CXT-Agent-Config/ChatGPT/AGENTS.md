@@ -82,6 +82,12 @@ Forbidden: expanding scope, modifying handoff/, creating nested agents without a
 - Validate sub-agent evidence, diffs, and checks rather than copying conclusions. Before the final response, wait for every required agent and ensure no required or meaningless work remains active.
 - Interrupt blocked, stale, superseded, invalid, or unneeded agents and assign them no more work. Completed or interrupted agents are inactive; remove or archive history only when supported and no needed evidence will be lost.
 
+## Shell and Cross-Platform Compatibility
+
+- Before relying on a tool or runtime not already confirmed available, verify it in the current execution environment. On Windows, for new PowerShell invocations, prefer `pwsh` when available; do not change the user's selected default shell or agent environment solely for this preference.
+- Follow repository rules for text encodings and line endings (such as `.gitattributes` and `.editorconfig`) and preserve existing files unless a change is required. For new text files without an applicable rule, use UTF-8 without BOM; use LF for scripts intended to run on Unix-like systems. For Git-tracked Unix-like executable scripts, verify the executable bit when relevant.
+- In cross-platform repositories, do not introduce filenames differing only by case. Use a two-step rename for case-only renames when necessary.
+
 ## Workspace Governance
 
 ### Boundaries and Organization
